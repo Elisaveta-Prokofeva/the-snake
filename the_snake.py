@@ -2,7 +2,6 @@ from random import choice
 
 import pygame as pg
 
-
 # --- Константы ---
 SCREEN_WIDTH, SCREEN_HEIGHT = 640, 480
 GRID_SIZE = 20
@@ -177,7 +176,6 @@ class Snake(GameObject):
 
     def draw(self):
         """Отрисовывает змейку."""
-
         if self.last is not None:
             self.draw_cell(
                 self.last,
